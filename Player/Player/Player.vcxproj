@@ -72,12 +72,16 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\bin\debug\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\bin\debug\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\bin\release\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\bin\release\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -151,7 +155,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="src\ATTRIBUTES.cpp" />
+    <ClCompile Include="src\CHARACTER.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="doc\CHANGELOG.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ATTRIBUTES.h" />
+    <ClInclude Include="include\CHARACTER.h" />
+    <ClInclude Include="include\MACRO.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
