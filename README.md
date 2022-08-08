@@ -1,7 +1,9 @@
 # Player
 
-![MIT License](http://byrne-systems.com/content/static/license-MIT-green.svg)
-![Platform](http://byrne-systems.com/content/static/platform-linux--64_win--32_osx--64_win--64-lightgrey.svg)
+![issues](https://img.shields.io/github/issues/Justin-Byrne/Player)
+![forks](https://img.shields.io/github/forks/Justin-Byrne/Player)
+![stars](https://img.shields.io/github/stars/Justin-Byrne/Player)
+![license](https://img.shields.io/github/license/Justin-Byrne/Player)
 
 Player is a basic program designed as the basis of an RPG-like character generator developed in C++ for educational and extracurricular purposes.
 
@@ -76,7 +78,7 @@ Presently, there are two primary methods of generating a character with this pro
 
 Basic Model of classes, class inheritance, and interface implementations.
 
-![Model](http://byrne-systems.com/content/static/packages/Player/UML Basic Diagram.svg)
+![Model](https://raw.githubusercontent.com/Justin-Byrne/Player/master/Player/Player/doc/models/UML%20Basic%20Diagram.svg)
 
 ## Support
 
