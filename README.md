@@ -23,20 +23,10 @@ Migrate to your desired download location on your local machine using your (eith
 git clone https://github.com/Justin-Byrne/Player.git
 ```
 
-Utilize the Makefile within the Player subdirectory immediately under the root directory, and utilize the following command(s) for the platform that you are using:
-
-### Windows 
+Initiate the Makefile under (root)/Player/Player, within your terminal/shell:
 
 ```sh
-> make win32
-> make clean
-```
-
-### Linux
-
-```sh
-# make linux
-# make clean
+> make && make clean
 ```
 
 **Note:** Your compiled binary output will be generated under the *bin* directory, inside the *release* directory. It's from this directory that you can execute your compiled file.
@@ -71,8 +61,8 @@ Usage:  Player <[option]||[no]> [name] [class] <[max]||[int] [str] [vit] [dex] [
 
 Presently, there are two primary methods of generating a character with this program:
 
-1. `# Player 1 Bob Hunter 20`
-2. `# Player 2 Bob Hunter 8 10 17 12 7`
+1. `> Player 1 Bob Hunter 20`
+2. `> Player 2 Bob Hunter 8 10 17 12 7`
 
 ## Model
 
